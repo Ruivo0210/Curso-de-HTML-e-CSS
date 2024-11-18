@@ -1,3 +1,46 @@
-* {
-    font-weight: bold;
+/* 
+
+Pseudoclasses de localização: 
+Permitem que você faça seleções baseadas em links (para onde um link está indo).
+Visited: permite atribuir valores a links já visitados pelo usuário.
+Link: atribui valores a links ainda não visitados.
+
+
+a:visited{
+	color: red;
 }
+
+Atributo color: atribui uma cor específica definida ao elemento.
+
+*/
+
+/*
+
+Pseudo Classes de ação de usuário: 
+Eventos: coisas que o usuario pode fazer, que atualizarão a página quando o evento ocorrer ou enquanto corre.
+focus: quando estou focando no conteúdo com o teclado. (tab) / hover: quando passo o mouse sobre o link
+outline: define uma linha (outline) para os inputs que estamos focados
+
+a:focus,a:hover{
+	color: red;
+}
+
+input:focus, select:focus{	
+	outline: 2px solid black;
+}
+
+*/
+
+/*
+
+Pseudo Classes de negação: combninações lógicas
+elemento not: permite encontrar algo que não obedece a uma restrição.
+Aqui, selecionamos todas as seções que não são a #testimonials.
+
+section:not(#testimonials) {
+	font-style:italic;
+}
+
+*/
+
+/* Pseudo- elementos:  */
